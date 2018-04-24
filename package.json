@@ -4,21 +4,22 @@
   "description": "ERROR: No README data found!",
   "main": "index.js",
   "scripts": {
+    "restart": "pm2 startOrRestart ecosystem.config.js",
+    "deploy": "pm2 deploy ecosystem.config.js production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/c-e-smith/test-server.git"
+  }
+  "bugs": {
+    "url": "https://github.com/c-e-smith/test-server/issues"
+  },
+  "author":c evan smith"",
   "license": "BSD",
   "devDependencies": {
     "express": "~4.16.3"
   },
   "dependencies": {
     "express": "~4.16.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/c-e-smith/test-server.git"
-  },
-  "bugs": {
-    "url": "https://github.com/c-e-smith/test-server/issues"
-  }
 }
